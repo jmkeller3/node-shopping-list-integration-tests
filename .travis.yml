@@ -1,10 +1,10 @@
 language: node_js
 node_js: node
-deploy: salty-cliffs-18623
+deploy:
   provider: heroku
   api_key:
     secure: N/g3UEPh8vYLg061cT0eCF9yQrOrWOSXKEPnhZpjGmTTl3HnsU0IDufIobuSUqa6SoNqFCOaC/VAZIpmuO17hn4V64INruklf0viwB+Xxgc5gkBQRFtI8RbYADKjXYjgDnQvl4JcrximNXx+bp4An8gccAGin5z8Yz10cOnNvJEFBsRXoz++y6rP/MLWV4tOBHg3CTRlzAVRLfZf5XlBwT9VM24xCvXloUOeF84WEivnvZUzSalI8bjC2ZRjTFyMx0bB21JJyucHQRYyLl2l3bVhpsFgGUrqzpB/IEe63N123ujvVUvTuzHQGFQgU7q9SqjgYEYfzcOKSY26QIZpfV2eEzhBi0V/I6Ay5wMgM7wGdqNYkvUfSuliFEfPrSUeGL04cLc7TvydQldWNiOartlhhXR+vhrDCO3/XaowTJ4kRE+fbGS9DsD6SyG1FjFk8AMR3GBxsmAuE9HOiShgcLzAm6/cZA/XGwtCpb49jGwkBNttWmhWlURe/a69vV6YOgTcKRXy86vPnuAgwyynkvH66ngJQ5AF7+xd3hrTsYikSrqEcy4e6lZm/qCBOHg9jmvMYWf7m8hRF9ZAF48l/kDQhARhGy4dtRlW7hcpVu9ULl07psxDXsG7Jl1aO9vWpxLYzhhcwcbcdKp/VvUPe4CQ/UkGhcE98xMDdVNP0zw=
-  app: node-shopping-list-integration-tests
+  app: salty-cliffs-18623
   on:
     repo: jmkeller3/node-shopping-list-integration-tests
     branch: tests-for-recipes
